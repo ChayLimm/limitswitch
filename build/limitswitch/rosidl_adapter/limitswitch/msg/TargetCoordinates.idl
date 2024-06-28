@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from limitswitch/msg/TargetCoordinates.msg
+// generated code does not contain a copyright notice
+
+
+module limitswitch {
+  module msg {
+    struct TargetCoordinates {
+      boolean rail;
+
+      boolean front_left;
+
+      boolean front_right;
+    };
+  };
+};

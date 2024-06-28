@@ -1,0 +1,4 @@
+Invoking command in '/home/chaylim/Documents/limitswitch/build/limitswitch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chaylim/Documents/limitswitch/build/limitswitch -- -j12 -l12
+Invoked command in '/home/chaylim/Documents/limitswitch/build/limitswitch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/chaylim/Documents/limitswitch/build/limitswitch -- -j12 -l12
+Invoking command in '/home/chaylim/Documents/limitswitch/build/limitswitch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chaylim/Documents/limitswitch/build/limitswitch
+Invoked command in '/home/chaylim/Documents/limitswitch/build/limitswitch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/chaylim/Documents/limitswitch/build/limitswitch

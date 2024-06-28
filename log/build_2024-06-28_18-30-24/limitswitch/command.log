@@ -1,0 +1,2 @@
+Invoking command in '/home/chaylim/Documents/limitswitch/build/limitswitch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chaylim/Documents/limitswitch/src/limitswitch -DCMAKE_INSTALL_PREFIX=/home/chaylim/Documents/limitswitch/install/limitswitch
+Invoked command in '/home/chaylim/Documents/limitswitch/build/limitswitch' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chaylim/Documents/limitswitch/src/limitswitch -DCMAKE_INSTALL_PREFIX=/home/chaylim/Documents/limitswitch/install/limitswitch

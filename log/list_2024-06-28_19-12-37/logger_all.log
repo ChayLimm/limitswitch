@@ -1,0 +1,56 @@
+[0.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/chaylim/Documents/limitswitch']
+[0.213s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/chaylim/Documents/limitswitch'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fd15488e5b0>>, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('list',), names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fd15488e5b0>, verb_name='list', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd15481d670>)
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.419s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chaylim/Documents/limitswitch'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/build) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/build) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/build) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/install) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/install) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/install) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/log) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/log) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/log) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chaylim/Documents/limitswitch/src/limitswitch) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package '/home/chaylim/Documents/limitswitch/src/limitswitch' with type 'ros.ament_cmake' and name 'limitswitch'
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

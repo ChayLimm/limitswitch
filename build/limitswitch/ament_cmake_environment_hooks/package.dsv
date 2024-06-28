@@ -1,0 +1,4 @@
+source;share/limitswitch/local_setup.bash
+source;share/limitswitch/local_setup.dsv
+source;share/limitswitch/local_setup.sh
+source;share/limitswitch/local_setup.zsh

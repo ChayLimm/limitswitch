@@ -1,0 +1,6 @@
+{
+  "package_name": "limitswitch",
+  "non_idl_tuples": [
+    "/home/chaylim/Documents/limitswitch/src/limitswitch:msg/TargetCoordinates.msg"
+  ]
+}

@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/chaylim/Documents/limitswitch/build/limitswitch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chaylim/Documents/limitswitch/src/limitswitch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaylim/Documents/limitswitch/install/limitswitch
+[0.023s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.037s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.135s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.151s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.151s]   By not providing "Findgeometry_msg.cmake" in CMAKE_MODULE_PATH this project
+[0.151s]   has asked CMake to find a package configuration file provided by
+[0.151s]   "geometry_msg", but CMake did not find one.
+[0.151s] 
+[0.151s]   Could not find a package configuration file provided by "geometry_msg" with
+[0.151s]   any of the following names:
+[0.151s] 
+[0.151s]     geometry_msgConfig.cmake
+[0.151s]     geometry_msg-config.cmake
+[0.151s] 
+[0.152s]   Add the installation prefix of "geometry_msg" to CMAKE_PREFIX_PATH or set
+[0.152s]   "geometry_msg_DIR" to a directory containing one of the above files.  If
+[0.152s]   "geometry_msg" provides a separate development package or SDK, be sure it
+[0.152s]   has been installed.
+[0.152s] 
+[0.152s] 
+[0.152s] -- Configuring incomplete, errors occurred!
+[0.152s] See also "/home/chaylim/Documents/limitswitch/build/limitswitch/CMakeFiles/CMakeOutput.log".
+[0.153s] Invoked command in '/home/chaylim/Documents/limitswitch/build/limitswitch' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chaylim/Documents/limitswitch/src/limitswitch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chaylim/Documents/limitswitch/install/limitswitch
